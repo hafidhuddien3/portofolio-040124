@@ -39,12 +39,16 @@ color: cornflowerblue;
 
 .wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: start;
 }
 
+.row-item{
+    display: flex;
+    flex-direction: row;
+}
+
 .wrapper .container {
-    width: 1024px;
     border-radius: 32px;
     margin: 16px;
     background: white;
@@ -70,7 +74,7 @@ color: cornflowerblue;
 .item {
     border-radius: 10px;
     margin-top: 16px;
-    padding: 12px 24px 12px 24px;
+    padding: 5px;
     background: white;
     display: flex;
     align-items: center;
@@ -105,6 +109,9 @@ color: cornflowerblue;
 
 .shadow {
     box-shadow: 0 0 10px rgba(154, 160, 185, .3), 0 0 10px rgba(166, 173, 201, .3);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
 }
 
 input[type=text], input[type=number] {
@@ -197,19 +204,42 @@ input[type=text], input[type=number], .btn-submit:focus {
     outline: none;
 }
 
-@media only screen and (max-width: 1024px) {
+.img_port {
+    width: 100%;
+    opacity: 1;
+
+
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img_port:hover {
+    opacity: 0.5;
+    content: 'whatever it is you want to add';
+}
+
+.list-item h4  {
+    text-align: center;
+}
+
+.list-item a{
+display:block;
+text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
     .wrapper {
         margin: 0;
-flex-direction: column;
+    }
+
+    .row-item{
+        display: flex;
+        flex-direction: column;
     }
 
  #add-book{
      position: static;
 }
-
-    .wrapper .container {
-        width: 100%;
-    }
 
     .list-item {
         width: 90%;
@@ -221,6 +251,10 @@ flex-direction: column;
 
 header {
 width: 100%;
+}
+
+.img_port {
+    width: 100%;
 }
 
 }
