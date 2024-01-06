@@ -2,7 +2,7 @@ const getInitialData = [
 
 {
 name: "Resto Mania",
-address: "https://main--spiffy-selkie-23d9e5.netlify.app/",
+address: "https://spiffy-selkie-23d9e5.netlify.app/",
 image: "assets/images/image(1).png",
 feature: "Single-Page App PWA service worker caching,icon Add to Home Screen,webpack,Mobile First Approach Responsive,Aksesibilitas,JavaScript Clean Code,Automation Testing jest github action,end to end test codeceptjs,Image Optimization [sharp. ImageminWebpackPlugin. lazy loading],bundle analyzer (dev mode only),Code Splitting splitChunks"
 },
