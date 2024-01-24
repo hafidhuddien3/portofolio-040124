@@ -29,7 +29,8 @@ const createRowRightTemplate = (data) => {
   return `
   <h4 class="">${data.name}</h4>
 <ul id="${data.name}" ></ul>
-<a href="${data.address}" target=”_blank” >link</a>`
+<a href="${data.address}" target=”_blank” >link</a>
+<a href="${data.github}" target=”_blank” >link github</a>`
 }
 
 const createListTemplate = (data) => {

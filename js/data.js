@@ -1,10 +1,29 @@
 const getInitialData = [
 
 {
+name: "Threads App React",
+address: "https://darling-bubblegum-29834f.netlify.app/",
+image: "assets/images/image-react-threads.png",
+feature: "redux,hooks",
+github: "https://github.com/hafidhuddien3/react-thread-app-240124"
+},
+
+
+{
+name: "Notes App React",
+address: "https://creative-kitsune-3e24ff.netlify.app/",
+image: "assets/images/image-react-notes.png",
+feature: "dark/light theme,hooks",
+github: "https://github.com/hafidhuddien3/react-note-r3-030124"
+},
+
+{
 name: "Resto Mania",
 address: "https://spiffy-selkie-23d9e5.netlify.app/",
 image: "assets/images/image(1).png",
-feature: "Single-Page App PWA service worker caching,icon Add to Home Screen,webpack,Mobile First Approach Responsive,Aksesibilitas,JavaScript Clean Code,Automation Testing jest github action,end to end test codeceptjs,Image Optimization [sharp. ImageminWebpackPlugin. lazy loading],bundle analyzer (dev mode only),Code Splitting splitChunks"
+feature: "Single-Page App PWA service worker caching,icon Add to Home Screen,webpack,Mobile First Approach,Aksesibilitas,JavaScript Clean Code,Automation Testing jest github action,end to end test codeceptjs,Image Optimization [sharp. ImageminWebpackPlugin. lazy loading],bundle analyzer (dev mode only),Code Splitting splitChunks"
+,
+github: "https://github.com/hafidhuddien3/resto-app-030124"
 },
 
 {
@@ -12,6 +31,8 @@ name: "Story App",
 address: "https://adorable-begonia-2cc860.netlify.app/",
 image: "assets/images/image(2).png",
 feature: "webpack,spinner dan placeholder,Authentication,HTTP Client dengan Axios,sass scss,bootstrap,Lit Element"
+,
+github: "https://github.com/hafidhuddien3/story-app-fe5-030124"
 },
 
 {
@@ -19,48 +40,49 @@ name: "Food Finder",
 address: "https://spontaneous-strudel-4b4238.netlify.app",
 image: "assets/images/image(3).png",
 feature: "webpack,fetch,AJAX,custom element,Responsive"
+,
+github: "https://github.com/hafidhuddien3/Finder-fe4-030124"
 },
 
 {
 name: "Bookshelf App",
 address: "https://keen-tapioca-379b0f.netlify.app/",
 image: "assets/images/image(4).png",
-feature: "Responsive"
+feature: "Responsive",
+github: "https://github.com/hafidhuddien3/bookshelf-app-fe3-030124"
+
 },
 
 {
 name: "Kab. Tulungagung Info",
 address: "https://helpful-bombolone-50cd53.netlify.app/",
 image: "assets/images/image(5).png",
-feature: ""
-},
-
-{
-name: "Notes App React",
-address: "https://creative-kitsune-3e24ff.netlify.app/",
-image: "assets/images/image(6).png",
-feature: ""
+feature: "",
+github: "https://github.com/hafidhuddien3/webDasar-info-kota-fe1-030124"
 },
 
 {
 name: "forum api",
 address: "https://github.com/hafidhuddien3/forum-api",
 image: null,
-feature: "PostgreSQL,Clean Architecture,Jest,instances-container,postman"
+feature: "PostgreSQL,Clean Architecture,Jest,instances-container,postman",
+github: "https://github.com/hafidhuddien3/forum-api"
 },
 
 {
 name: "open music api",
 address: "https://github.com/hafidhuddien3/open-music-api-be6-030124",
 image: null,
-feature: "PostgreSQL,redis CacheService,bcrypt,dotenv,joi,nanoid"
+feature: "PostgreSQL,redis CacheService,bcrypt,dotenv,joi,nanoid",
+github: "https://github.com/hafidhuddien3/open-music-api-be6-030124"
 },
 
 {
 name: "open music api consumer",
 address: "https://github.com/hafidhuddien3/open-music-api-consumer-030124",
 image: null,
-feature: "Nodemailer send emails,amqp RABBITMQ_SERVER, client/consumer"
+feature: "Nodemailer send emails,amqp RABBITMQ_SERVER, client/consumer",
+github: "https://github.com/hafidhuddien3/open-music-api-consumer-030124"
 },
 
 ];
