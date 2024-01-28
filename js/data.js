@@ -4,7 +4,7 @@ const getInitialData = [
 name: "Threads App React",
 address: "https://darling-bubblegum-29834f.netlify.app/",
 image: "assets/images/image-react-threads.png",
-feature: "redux,hooks,vitest test,cypress test,storybook,ci cd",
+feature: "redux,hooks,vitest test,cypress test,storybook,ci cd,guest account",
 github: "https://github.com/hafidhuddien3/react-thread-app-240124"
 },
 
@@ -13,7 +13,7 @@ github: "https://github.com/hafidhuddien3/react-thread-app-240124"
 name: "Notes App React",
 address: "https://creative-kitsune-3e24ff.netlify.app/",
 image: "assets/images/image-react-notes.png",
-feature: "dark/light theme,hooks",
+feature: "dark/light theme,hooks,guest account",
 github: "https://github.com/hafidhuddien3/react-note-r3-030124"
 },
 
