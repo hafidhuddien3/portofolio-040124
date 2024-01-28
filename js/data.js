@@ -4,7 +4,7 @@ const getInitialData = [
 name: "Threads App React",
 address: "https://darling-bubblegum-29834f.netlify.app/",
 image: "assets/images/image-react-threads.png",
-feature: "redux,hooks",
+feature: "redux,hooks,vitest test,cypress test,storybook,ci cd",
 github: "https://github.com/hafidhuddien3/react-thread-app-240124"
 },
 
