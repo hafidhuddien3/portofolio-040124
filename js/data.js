@@ -13,7 +13,7 @@ github: "https://github.com/hafidhuddien3/react-thread-app-240124"
 name: "Notes App React",
 address: "https://creative-kitsune-3e24ff.netlify.app/",
 image: "assets/images/image-react-notes.png",
-feature: "dark/light theme,hooks,guest account",
+feature: "dark/light theme,hooks,loading indicator,dual language,404 Pages",
 github: "https://github.com/hafidhuddien3/react-note-r3-030124"
 },
 
