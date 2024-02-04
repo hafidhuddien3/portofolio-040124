@@ -21,7 +21,7 @@ github: "https://github.com/hafidhuddien3/react-note-r3-030124"
 name: "Resto Mania",
 address: "https://spiffy-selkie-23d9e5.netlify.app/",
 image: "assets/images/image(1).png",
-feature: "Single-Page App PWA service worker caching,icon Add to Home Screen,webpack,Mobile First Approach,Aksesibilitas,JavaScript Clean Code,Automation Testing jest github action,end to end test codeceptjs,Image Optimization [sharp. ImageminWebpackPlugin. lazy loading],bundle analyzer (dev mode only),Code Splitting splitChunks"
+feature: "Single-Page App PWA service worker caching,icon Add to Home Screen,webpack,Mobile First Approach,Aksesibilitas,JavaScript Clean Code,Automation Testing jest github action,end to end test codeceptjs,Image Optimization [sharp. ImageminWebpackPlugin. lazy loading],bundle analyzer (dev mode only),Code Splitting splitChunks,post review"
 ,
 github: "https://github.com/hafidhuddien3/resto-app-030124"
 },
