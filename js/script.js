@@ -41,14 +41,41 @@ myArray.forEach((item, index) => {
     });}
 
 
-
+    const h1 = document.querySelector('.pageTitle');
 
     document.addEventListener('DOMContentLoaded', function() {
-      
-      getInitialData.forEach((item, index) => {
+      h1.innerHTML='Front-End';
+      getFontEndData.forEach((item, index) => {
         wrapper.innerHTML += createItemTemplate(item);
   createListTemplate(item);
       });
 
     });
 
+    const btnFE = document.querySelector('#btnFE');
+    const btnBE = document.querySelector('#btnBE');
+    console.log
+
+    btnFE.addEventListener("click", feFunction);
+
+    function feFunction() {
+      h1.innerHTML='Front-End';
+      wrapper.innerHTML='';
+  getFontEndData.forEach((item, index) => {
+    wrapper.innerHTML += createItemTemplate(item);
+createListTemplate(item);
+  });
+
+}
+
+btnBE.addEventListener("click", beFunction);
+
+function beFunction() {
+  h1.innerHTML='Back-End';
+  wrapper.innerHTML='';
+getBackEndData.forEach((item, index) => {
+wrapper.innerHTML += createItemTemplate(item);
+createListTemplate(item);
+});
+
+}

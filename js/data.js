@@ -1,4 +1,4 @@
-const getInitialData = [
+const getFontEndData = [
 
 {
 name: "Threads App React",
@@ -61,30 +61,34 @@ feature: "",
 github: "https://github.com/hafidhuddien3/webDasar-info-kota-fe1-030124"
 },
 
-{
-name: "forum api",
-address: "https://github.com/hafidhuddien3/forum-api",
-image: null,
-feature: "PostgreSQL,Clean Architecture,Jest,instances-container,postman",
-github: "https://github.com/hafidhuddien3/forum-api"
-},
 
-{
-name: "open music api",
-address: "https://github.com/hafidhuddien3/open-music-api-be6-030124",
-image: null,
-feature: "PostgreSQL,redis CacheService,bcrypt,dotenv,joi,nanoid",
-github: "https://github.com/hafidhuddien3/open-music-api-be6-030124"
-},
 
-{
-name: "open music api consumer",
-address: "https://github.com/hafidhuddien3/open-music-api-consumer-030124",
-image: null,
-feature: "Nodemailer send emails,amqp RABBITMQ_SERVER, client/consumer",
-github: "https://github.com/hafidhuddien3/open-music-api-consumer-030124"
-},
+];
 
+const getBackEndData = [
+    {
+        name: "forum api",
+        address: "https://github.com/hafidhuddien3/forum-api",
+        image: null,
+        feature: "PostgreSQL,Clean Architecture,Jest,instances-container,postman",
+        github: "https://github.com/hafidhuddien3/forum-api"
+        },
+        
+        {
+        name: "open music api",
+        address: "https://github.com/hafidhuddien3/open-music-api-be6-030124",
+        image: null,
+        feature: "PostgreSQL,redis CacheService,bcrypt,dotenv,joi,nanoid",
+        github: "https://github.com/hafidhuddien3/open-music-api-be6-030124"
+        },
+        
+        {
+        name: "open music api consumer",
+        address: "https://github.com/hafidhuddien3/open-music-api-consumer-030124",
+        image: null,
+        feature: "Nodemailer send emails,amqp RABBITMQ_SERVER, client/consumer",
+        github: "https://github.com/hafidhuddien3/open-music-api-consumer-030124"
+        },
 ];
 
 
