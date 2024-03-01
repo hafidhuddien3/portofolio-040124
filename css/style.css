@@ -12,9 +12,10 @@ html, body {
 }
 
 header {
-    background: cornflowerblue;
+    ccbackground: cornflowerblue;
+    background: yellow;
     padding: 0.1px 16px;
-    color: white;
+    color:black;
     display: flex;
     flex-direction: row;
 border-radius:0 0 0 60px;
@@ -259,7 +260,7 @@ color: black;
 h2{
     text-align: center;
     margin-bottom: 0;
-    margin-top: 5px;
+    ccmargin-top: 5px;
 }
 
   /*#5F30E2*/
