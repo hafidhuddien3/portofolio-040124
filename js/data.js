@@ -1,7 +1,17 @@
 const getFontEndData = [
 
+    
+
 {
-name: "Threads App React",
+name: "Meals Catalog (Next.js)",
+address: "https://meals-catalog.netlify.app/",
+image: "assets/images/next.js1.png",
+feature: "",
+github: "https://github.com/hafidhuddien3/next.js-meals-030324"
+},
+
+{
+name: "Threads App (React)",
 address: "https://darling-bubblegum-29834f.netlify.app/",
 image: "assets/images/image-react-threads.png",
 feature: "redux,hooks,vitest test,cypress test,storybook,ci cd,guest account",
@@ -10,7 +20,7 @@ github: "https://github.com/hafidhuddien3/react-thread-app-240124"
 
 
 {
-name: "Notes App React",
+name: "Notes App (React)",
 address: "https://creative-kitsune-3e24ff.netlify.app/",
 image: "assets/images/image-react-notes.png",
 feature: "dark/light theme,hooks,loading indicator,dual language,404 Pages",
