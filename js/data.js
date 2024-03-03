@@ -4,7 +4,7 @@ const getFontEndData = [
 
 {
 name: "Meals Catalog (Next.js)",
-address: "https://meals-catalog.netlify.app/",
+address: "https://next-js-meals-030324.vercel.app/",
 image: "assets/images/next.js1.png",
 feature: "",
 github: "https://github.com/hafidhuddien3/next.js-meals-030324"
