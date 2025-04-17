@@ -2,7 +2,7 @@ const getAppData = [
   {
     name: "CRM App",
     address: "https://crm-app-hafid.vercel.app",
-    image: "assets/images/app1.png",
+    image: "assets/images/app0.png",
     feature: "Angular,inprogress",
     github: "",
   },
