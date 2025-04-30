@@ -42,23 +42,35 @@ const createListTemplate = (data) => {
 const h1 = document.querySelector(".pageTitle");
 
 document.addEventListener("DOMContentLoaded", function () {
-  h1.innerHTML = "Website";
-  getAppData.forEach((item, index) => {
+  h1.innerHTML = "Mobile";
+  getMobileData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
     createListTemplate(item);
   });
 });
 ///
-const btnApp = document.querySelector("#btnApp");
+const btnMobile = document.querySelector("#btnMobile");
+const btnWeb = document.querySelector("#btnWeb");
 const btnFE = document.querySelector("#btnFE");
 const btnBE = document.querySelector("#btnBE");
 
-btnApp.addEventListener("click", appFunction);
+btnMobile.addEventListener("click", mobileFunction);
 
-function appFunction() {
-  h1.innerHTML = "Website for Portofolio";
+function mobileFunction() {
+  h1.innerHTML = "Mobile";
   wrapper.innerHTML = "";
-  getAppData.forEach((item, index) => {
+  getMobileData.forEach((item, index) => {
+    wrapper.innerHTML += createItemTemplate(item);
+    createListTemplate(item);
+  });
+}
+
+btnWeb.addEventListener("click", webFunction);
+
+function webFunction() {
+  h1.innerHTML = "Website";
+  wrapper.innerHTML = "";
+  getWebData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
     createListTemplate(item);
   });

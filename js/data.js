@@ -1,4 +1,15 @@
-const getAppData = [
+const getMobileData = [
+  {
+    name: "CRM App",
+    address:
+      "https://drive.google.com/file/d/13UTPrtprcjS1tjrj5oCeD7ZuqXo6485O/view?usp=sharing",
+    image: "assets/images/mobile-1.png",
+    feature: "React-Native",
+    github: "",
+  },
+];
+
+const getWebData = [
   {
     name: "CRM App",
     address: "https://crm-app-hafid.vercel.app",
