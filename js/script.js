@@ -42,8 +42,8 @@ const createListTemplate = (data) => {
 const h1 = document.querySelector(".pageTitle");
 
 document.addEventListener("DOMContentLoaded", function () {
-  h1.innerHTML = "Mobile";
-  getMobileData.forEach((item, index) => {
+  h1.innerHTML = "Website";
+  getWebData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
     createListTemplate(item);
   });
