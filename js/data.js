@@ -12,9 +12,9 @@ const getMobileData = [
 const getWebData = [
   {
     name: "CRM App",
-    address: "https://crm-app-hafid.vercel.app",
+    address: "https://crm-app-hafid.netlify.app/",
     image: "assets/images/app0.png",
-    feature: "Angular,inprogress",
+    feature: "Angular, NextJsBackEnd",
     github: "",
   },
 ];
