@@ -21,7 +21,7 @@ header {
   color: white;
   display: flex;
   flex-direction: column;
-  border-radius: 0 0 0 60px;
+  /* border-radius: 0 0 0 60px; */
 }
 
 header h1 {
@@ -232,7 +232,7 @@ input[type="number"],
 
 .btn-top {
   background: white;
-  border-radius: 10px 10px 10px 30px;
+  border-radius: 10px 10px 10px 10px;
   border: none;
   height: 60px;
   color: #000000;
