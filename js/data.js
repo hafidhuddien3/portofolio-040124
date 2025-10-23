@@ -17,7 +17,7 @@ const getWebData = [
     feature: "Angular, NextJsBackEnd",
     github: "",
   },
-    {
+  {
     name: "Posting MBG App,\n berbagi review MBG untuk semua sekolah",
     address: "https://elaborate-rolypoly-0056fa.netlify.app/",
     image: "assets/images/mbg.png",
