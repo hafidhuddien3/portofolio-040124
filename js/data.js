@@ -24,7 +24,15 @@ const getWebData = [
     feature: "Flutter, PHP, PostgreSQL, Account Testing: Alice pass:secret123, Test School Login: hafidhuddien3@gmail.com pass:12345678",
     github: "",
   },
+  {
+    name: "Cash Flow",
+    address: "https://superb-caramel-59807d.netlify.app/",
+    image: "assets/images/blazor.png",
+    feature: ".Net Blazor, indexDB, Deployment CSS Error",
+    github: "",
+  },
 ];
+
 
 const getFontEndData = [
   {
