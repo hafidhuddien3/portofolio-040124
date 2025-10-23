@@ -28,7 +28,7 @@ const getWebData = [
     name: "Cash Flow",
     address: "https://superb-caramel-59807d.netlify.app/",
     image: "assets/images/blazor.png",
-    feature: ".Net Blazor, indexDB, Deployment CSS Error",
+    feature: ".NET Blazor, indexDB, Deployment CSS Error",
     github: "",
   },
 ];
