@@ -14,7 +14,7 @@ const getWebData = [
     name: "CRM App",
     address: "https://crm-app-hafid.netlify.app/",
     image: "assets/images/app0.png",
-    feature: "Angular, NextJsBackEnd",
+    feature: "Angular, NextJsBackEnd, MongoDB",
     github: "",
   },
   {
@@ -26,9 +26,9 @@ const getWebData = [
   },
   {
     name: "Cash Flow",
-    address: "https://superb-caramel-59807d.netlify.app/",
+    address: "https://darling-starburst-301da9.netlify.app/",
     image: "assets/images/blazor.png",
-    feature: ".NET Blazor, indexDB, Deployment CSS Error",
+    feature: ".NET Blazor, indexDB",
     github: "",
   },
 ];
