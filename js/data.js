@@ -27,7 +27,7 @@ const getWebData = [
   {
     name: "Cash Flow",
     address: "https://darling-starburst-301da9.netlify.app/",
-    image: "assets/images/blazor.png",
+    image: "assets/images/blazor2.png",
     feature: ".NET Blazor, IndexedDB",
     github: "",
   },
