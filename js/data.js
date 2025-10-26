@@ -11,13 +11,13 @@ const getMobileData = [
 
 const getWebData = [
   {
-    name: "CRM App",
-    address: "https://crm-app-hafid.netlify.app/",
-    image: "assets/images/app0.png",
-    feature: "Angular, NextJsBackEnd, MongoDB",
+    name: "Akuntansi App (Invoice,Bill,Pay,GL)",
+    address: "https://darling-starburst-301da9.netlify.app/",
+    image: "assets/images/account.png",
+    feature: ".NET Blazor, IndexedDB",
     github: "",
   },
-  {
+    {
     name: "Posting MBG App,\n berbagi review MBG untuk semua sekolah",
     address: "https://elaborate-rolypoly-0056fa.netlify.app/",
     image: "assets/images/mbg2.PNG",
@@ -25,9 +25,16 @@ const getWebData = [
     github: "",
   },
   {
+    name: "CRM App",
+    address: "https://crm-app-hafid.netlify.app/",
+    image: "assets/images/app0.png",
+    feature: "Angular, NextJsBackEnd, MongoDB",
+    github: "",
+  },
+  {
     name: "Cash Flow",
-    address: "https://darling-starburst-301da9.netlify.app/",
-    image: "assets/images/blazor2.png",
+    address: "https://chic-sprite-738417.netlify.app/",
+    image: "assets/images/cashflow.png",
     feature: ".NET Blazor, IndexedDB",
     github: "",
   },
