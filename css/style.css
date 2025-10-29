@@ -53,6 +53,7 @@ header button {
 .row-item {
   display: flex;
   flex-direction: row;
+  /* background-color: #5f30e2; */
 }
 
 .wrapper .container {
@@ -65,6 +66,20 @@ header button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.wrapper .container_image {
+  border-radius: 5px;
+  margin: 5px;
+  background: white;
+  padding: 5px;
+  padding-bottom: 1px;
+  /* flex-grow: 1;
+  height: fit-content; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* background-color: #5f30e2; */
 }
 
 #selesai {
@@ -82,7 +97,7 @@ header button {
   border-radius: 10px;
   margin-top: 16px;
   padding: 5px;
-  background: white;
+  background-color: rgba(255, 255, 255, 0.85); 
   display: flex;
   align-items: center;
 }
@@ -227,6 +242,10 @@ input[type="number"],
   opacity: 0.5;
   content: "whatever it is you want to add";
 }
+
+/* .bg-white {
+  background-color: white;
+} */
 
 .list-item h4 {
   text-align: center;

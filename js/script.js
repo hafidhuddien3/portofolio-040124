@@ -10,17 +10,15 @@ ${createRowRightTemplate(data)}
     </div>
   </div>
 
-  <div class="container" id="belum-selesai">
-  <div class="list-item" id="books">
+  <div class="container_image">
 ${createRowLeftTemplate(data)}
-  </div>
 </div>
 
   </div>`;
 };
 
 const createRowLeftTemplate = (data) => {
-  return `<a href="${data.address}" target=”_blank” ><img class="img_port" src="${data.image}" alt="${data.address}"><a>`;
+  return `<div><a href="${data.address}" target=”_blank” ><img class="img_port" src="${data.image}" alt="${data.address}"></a></div>`;
 };
 
 const createRowRightTemplate = (data) => {
