@@ -12,11 +12,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-size: cover;
 }
 
 header {
-  background: blue;
-  /* background: yellow; */
+  /* background: blue; */
+  background: yellow;
   padding: 0.1px 16px;
   color: white;
   display: flex;
@@ -43,7 +44,10 @@ header button {
 .wrapper {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+  /* background-color: #000000; */
+  background-size: cover; /* Ensures the image covers the entire div */
+  padding-bottom: 30px;
 }
 
 .row-item {
@@ -58,6 +62,9 @@ header button {
   padding: 16px;
   flex-grow: 1;
   height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #selesai {
@@ -258,7 +265,11 @@ input[type="number"],
 h2 {
   text-align: center;
   margin-bottom: 0;
-  ccmargin-top: 5px;
+  margin-top: 15px;
+}
+
+.pageTitle {
+  color: white;
 }
 
 /*#5F30E2*/
@@ -269,9 +280,9 @@ h2 {
 
   /* Layer 1: overlay (static) */
   /* Layer 2: animated gradient */
-  background: 
+  /* background: 
     linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%),
-    linear-gradient(to bottom left, blue, white);
+    linear-gradient(to bottom left, blue, white); */
 
   /* Background sizes: first layer static (cover), second layer animated */
   background-size: cover, 200% 200%;
@@ -281,9 +292,22 @@ h2 {
 
   /* Animate only the second layer */
   animation: zoomMove 5s infinite alternate;
-
-
 }
+
+.img-sun-moon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 18px;
+  align-self: center;
+
+  transform: rotate(0deg);
+  animation: rotateBox 10s linear infinite;  
+  transform-origin: center; /* rotate around the center */
+}
+
 
 @media only screen and (max-width: 900px) {
   .wrapper {
@@ -292,7 +316,9 @@ h2 {
 
   .row-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
   }
 
   #add-book {
@@ -320,10 +346,34 @@ h2 {
   0% {
     background-position: center, left bottom; /* overlay static, gradient animated */
   }
-  50% {
+  /* 50% {
     background-position: center, center center;
-  }
+  } */
   100% {
     background-position: center, right top;
   }
+}
+
+@keyframes rotateBox {
+0%{
+  transform: rotate(0deg);
+}
+/* 50%{
+  transform: rotate(180deg);
+} */
+100%{
+  transform: rotate(360deg);
+}
+}
+
+@keyframes rotateBoxMoon {
+0%{
+  transform: rotate(20deg);
+}
+50%{
+  transform: rotate(-20deg);
+}
+100%{
+  transform: rotate(20deg);
+}
 }
