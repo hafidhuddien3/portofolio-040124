@@ -97,3 +97,30 @@ function beFunction() {
     createListTemplate(item);
   });
 }
+
+// gradient
+const gradDiv = document.getElementById('grad1');
+
+// Get current hour (0-23)
+// const hour = new Date().getHours();
+
+const now = new Date();
+
+const hour = now.getHours();      // 0-23
+const minutes = now.getMinutes(); // 0-59
+
+console.log(`Current time: ${hour}:${minutes}`);
+
+// Decide overlay color
+const overlayColor = (hour >= 6 && hour < 18) ? '255,255,255' : '0,0,0'; // white for day, black for night
+
+// Set the background with overlay gradient
+gradDiv.style.background = `
+  linear-gradient(to right, rgba(0,0,0,0) 20%, rgba(${overlayColor},0.5) 100%),
+  linear-gradient(to bottom left, blue, white)
+`;
+
+// Optional: keep the animation working
+gradDiv.style.backgroundSize = 'cover, 200% 200%';
+gradDiv.style.backgroundPosition = 'center, left bottom';
+gradDiv.style.animation = 'zoomMove 5s infinite alternate';

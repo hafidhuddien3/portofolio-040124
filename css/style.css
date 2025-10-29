@@ -36,9 +36,9 @@ header button {
   margin: auto;
 }
 
-.container-header {
+/* .container-header {
   color: cornflowerblue;
-}
+} */
 
 .wrapper {
   display: flex;
@@ -263,6 +263,28 @@ h2 {
 
 /*#5F30E2*/
 
+#grad1 {
+  /* height: 200px;
+  width: 400px; */
+
+  /* Layer 1: overlay (static) */
+  /* Layer 2: animated gradient */
+  background: 
+    linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%),
+    linear-gradient(to bottom left, blue, white);
+
+  /* Background sizes: first layer static (cover), second layer animated */
+  background-size: cover, 200% 200%;
+
+  /* Background positions: first layer static, second layer animated */
+  background-position: center, left bottom;
+
+  /* Animate only the second layer */
+  animation: zoomMove 5s infinite alternate;
+
+
+}
+
 @media only screen and (max-width: 900px) {
   .wrapper {
     margin: 0;
@@ -291,5 +313,17 @@ h2 {
 
   .img_port {
     width: 100%;
+  }
+}
+
+@keyframes zoomMove {
+  0% {
+    background-position: center, left bottom; /* overlay static, gradient animated */
+  }
+  50% {
+    background-position: center, center center;
+  }
+  100% {
+    background-position: center, right top;
   }
 }
