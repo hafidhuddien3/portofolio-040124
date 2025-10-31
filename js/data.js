@@ -17,7 +17,14 @@ const getWebData = [
     feature: ".NET Blazor, IndexedDB",
     github: "",
   },
-    {
+  {
+    name: "Calendar App",
+    address: "https://django1-jet.vercel.app/",
+    image: "assets/images/calendar.png",
+    feature: "django, python, PostgreSQL, Register or, Login: hafid pass:hijaukuning",
+    github: "",
+  },
+  {
     name: "Posting MBG App,\n berbagi review MBG untuk semua sekolah",
     address: "https://elaborate-rolypoly-0056fa.netlify.app/",
     image: "assets/images/mbg2.PNG",
