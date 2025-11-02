@@ -26,6 +26,7 @@ const createRowRightTemplate = (data) => {
   <h4 class="">${data.name}</h4>
 <ul id="${data.name}" ></ul>
 <a href="${data.address}" target=”_blank” >link</a>
+<a href="${data.apkVer}" target=”_blank” >${data.apkVer?"apk version":""}</a>
 <a href="${data.github}" target=”_blank” ></a>`;
 };
 

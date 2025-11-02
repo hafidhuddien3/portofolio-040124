@@ -1,4 +1,12 @@
 const getMobileData = [
+    {
+    name: "Calendar App",
+    address:
+      "https://drive.google.com/file/d/1lZvFHpsUUTh10bgNQpAvse3SNTuzAAy7/view?usp=sharing",
+    image: "assets/images/cal day.png",
+    feature: "React-Native",
+    github: "",
+  },
   {
     name: "CRM App",
     address:
@@ -23,6 +31,7 @@ const getWebData = [
     image: "assets/images/calendar.png",
     feature: "django, python, PostgreSQL, Register or, Login: hafid pass:hijaukuning",
     github: "",
+    apkVer: "https://drive.google.com/file/d/1lZvFHpsUUTh10bgNQpAvse3SNTuzAAy7/view?usp=sharing"
   },
   {
     name: "Posting MBG App,\n berbagi review MBG untuk semua sekolah",
@@ -37,6 +46,8 @@ const getWebData = [
     image: "assets/images/app0.png",
     feature: "Angular, NextJsBackEnd, MongoDB",
     github: "",
+    apkVer:
+      "https://drive.google.com/file/d/13UTPrtprcjS1tjrj5oCeD7ZuqXo6485O/view?usp=sharing",
   },
   {
     name: "Cash Flow",
