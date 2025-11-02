@@ -11,7 +11,7 @@ const getMobileData = [
     name: "CRM App",
     address:
       "https://drive.google.com/file/d/13UTPrtprcjS1tjrj5oCeD7ZuqXo6485O/view?usp=sharing",
-    image: "assets/images/mobile-1.png",
+    image: "assets/images/crm apk.jpg",
     feature: "React-Native",
     github: "",
   },
