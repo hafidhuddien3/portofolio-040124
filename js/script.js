@@ -2,7 +2,7 @@ const wrapper = document.querySelector(".wrapper");
 
 const createItemTemplate = (data) => {
   return `
-<div class="row-item item shadow">
+<div class="row-item item shadow fade-in-out">
 
   <div class="container selesai" id="selesai" >
     <div class="list-item" id="completed-books">

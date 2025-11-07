@@ -396,3 +396,13 @@ h2 {
   transform: rotate(20deg);
 }
 }
+
+.fade-in-out {
+  animation: fadeInOut 1s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  /* 50% { opacity: 1; } */
+  100% { opacity: 1; }
+}
