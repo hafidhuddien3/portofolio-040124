@@ -16,8 +16,8 @@ body {
 }
 
 header {
-  /* background: blue; */
-  background: yellow;
+  background: blue;
+  /* background: yellow; */
   padding: 0.1px 16px;
   color: white;
   display: flex;
