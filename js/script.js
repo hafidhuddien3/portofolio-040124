@@ -41,7 +41,7 @@ const createListTemplate = (data) => {
 const h1 = document.querySelector(".pageTitle");
 
 document.addEventListener("DOMContentLoaded", function () {
-  h1.innerHTML = "Website";
+  h1.innerHTML = '<h2 class="fade-in-out">Website</h2>';
   getWebData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
     createListTemplate(item);
@@ -56,7 +56,7 @@ const btnBE = document.querySelector("#btnBE");
 btnMobile.addEventListener("click", mobileFunction);
 
 function mobileFunction() {
-  h1.innerHTML = "Mobile";
+  h1.innerHTML = '<h2 class="fade-in-out">Mobile</h2>';
   wrapper.innerHTML = "";
   getMobileData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
@@ -67,7 +67,7 @@ function mobileFunction() {
 btnWeb.addEventListener("click", webFunction);
 
 function webFunction() {
-  h1.innerHTML = "Website";
+  h1.innerHTML = '<h2 class="fade-in-out">Website</h2>';
   wrapper.innerHTML = "";
   getWebData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
@@ -78,7 +78,7 @@ function webFunction() {
 btnFE.addEventListener("click", feFunction);
 
 function feFunction() {
-  h1.innerHTML = "Front-End";
+  h1.innerHTML = '<h2 class="fade-in-out">Front-End</h2>';
   wrapper.innerHTML = "";
   getFontEndData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
@@ -89,7 +89,7 @@ function feFunction() {
 btnBE.addEventListener("click", beFunction);
 
 function beFunction() {
-  h1.innerHTML = "Back-End";
+  h1.innerHTML = '<h2 class="fade-in-out">Back-End</h2>';
   wrapper.innerHTML = "";
   getBackEndData.forEach((item, index) => {
     wrapper.innerHTML += createItemTemplate(item);
