@@ -406,3 +406,34 @@ h2 {
   /* 50% { opacity: 1; } */
   100% { opacity: 1; }
 }
+
+.glow-box {
+  /* background: #222; */
+  /* color: #fff; */
+  /* padding: 20px; */
+  border-radius: 100px;
+  box-shadow: 
+    0 0 10px #fff,   /* soft glow */
+    0 0 20px #fff,   /* medium glow */
+    0 0 40px #fff;   /* stronger glow */
+}
+
+
+
+.glow-animate {
+  /* background: #111; */
+  /* color: #fff; */
+  /* padding: 20px; */
+  border-radius: 100px;
+    box-shadow: 
+    0 0 10px #fff,   /* soft glow */
+    0 0 20px #fff,   /* medium glow */
+    0 0 40px #fff;   /* stronger glow */
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%   { box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff; }
+  50%  { box-shadow: 0 0 20px #fff, 0 0 40px #fff; }
+  100% { box-shadow: 0 0 10px #fff, 0 0 20px #fff; }
+}

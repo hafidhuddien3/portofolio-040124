@@ -121,6 +121,7 @@ const isDay = (hour >= 6 && hour < 18)
 const overlayColor = isDay ? '255,255,255' : '0,0,0'; // white for day, black for night
 sunMoonImage[0].src = isDay ? 'assets/imageLayout/Sun-PNG-Image-Background.png' : 'assets/imageLayout/moon-illustration-design-free-png.webp';
 sunMoonImage[0].style.animation= isDay ? 'rotateBox 20s linear infinite' : 'rotateBoxMoon 7s linear infinite';
+// sunMoonImage[0].classList.toggle('glow-animate', isDay);
 pageTitleH2[0].style.color= isDay ? 'black' : 'white' ;
 document.body.style.backgroundImage = isDay ? "" : "url('assets/imageLayout/night2.png')";
 clockP.style.color = isDay ? 'white' : 'white' ;
