@@ -41,6 +41,14 @@ const getWebData = [
     github: "",
   },
   {
+    name: "Rent App",
+    address: "https://laravel-1-omega.vercel.app",
+    image: "assets/images/rent.png",
+    feature: "Laravel, PostgreSQL",
+    github: "",
+    apkVer: ""
+  },
+  {
     name: "CRM App",
     address: "https://crm-app-hafid.netlify.app/",
     image: "assets/images/app0.png",
