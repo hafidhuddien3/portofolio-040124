@@ -34,11 +34,12 @@ const getWebData = [
     apkVer: "https://drive.google.com/file/d/1lZvFHpsUUTh10bgNQpAvse3SNTuzAAy7/view?usp=sharing"
   },
   {
-    name: "Posting MBG App,\n berbagi review MBG untuk semua sekolah",
-    address: "https://elaborate-rolypoly-0056fa.netlify.app/",
-    image: "assets/images/mbg2.PNG",
-    feature: "Flutter, PHP, PostgreSQL, Account Testing: Alice pass:secret123, Test School Login: hafidhuddien3@gmail.com pass:12345678",
+    name: "Ingredient App",
+    address: "https://scintillating-tulumba-d699fa.netlify.app/",
+    image: "assets/images/vue1.png",
+    feature: "Vue",
     github: "",
+    apkVer: ""
   },
   {
     name: "Rent App",
@@ -47,6 +48,13 @@ const getWebData = [
     feature: "Laravel, PostgreSQL",
     github: "",
     apkVer: ""
+  },
+  {
+    name: "Posting MBG App,\n berbagi review MBG untuk semua sekolah",
+    address: "https://elaborate-rolypoly-0056fa.netlify.app/",
+    image: "assets/images/mbg2.PNG",
+    feature: "Flutter, PHP, PostgreSQL, Account Testing: Alice pass:secret123, Test School Login: hafidhuddien3@gmail.com pass:12345678",
+    github: "",
   },
   {
     name: "CRM App",
