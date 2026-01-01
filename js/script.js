@@ -1,12 +1,12 @@
 const wrapper = document.querySelector(".wrapper");
 
-const createItemTemplate = (data) => {
+const createItemTemplate = (data, index) => {
   return `
 <div class="row-item item shadow fade-in-out">
 
   <div class="container selesai" id="selesai" >
     <div class="list-item" id="completed-books">
-${createRowRightTemplate(data)}
+${createRowRightTemplate(data, index)}
     </div>
   </div>
 
@@ -21,9 +21,9 @@ const createRowLeftTemplate = (data) => {
   return `<div><a href="${data.address}" target=”_blank” ><img class="img_port" src="${data.image}" alt="${data.address}"></a></div>`;
 };
 
-const createRowRightTemplate = (data) => {
+const createRowRightTemplate = (data, index = 0) => {
   return `
-  <h4 class="">${data.name}</h4>
+  <h4 class="">${[index+1] + ". "+data.name}</h4>
 <ul id="${data.name}" ></ul>
 <a href="${data.address}" target=”_blank” >link</a>
 <a href="${data.apkVer}" target=”_blank” >${data.apkVer?"apk version":""}</a>
@@ -43,7 +43,7 @@ const h1 = document.querySelector(".pageTitle");
 document.addEventListener("DOMContentLoaded", function () {
   h1.innerHTML = '<h2 class="fade-in-out">Website</h2>';
   getWebData.forEach((item, index) => {
-    wrapper.innerHTML += createItemTemplate(item);
+    wrapper.innerHTML += createItemTemplate(item, index);
     createListTemplate(item);
   });
 });
@@ -59,7 +59,7 @@ function mobileFunction() {
   h1.innerHTML = '<h2 class="fade-in-out">Mobile</h2>';
   wrapper.innerHTML = "";
   getMobileData.forEach((item, index) => {
-    wrapper.innerHTML += createItemTemplate(item);
+    wrapper.innerHTML += createItemTemplate(item, index);
     createListTemplate(item);
   });
 }
@@ -70,7 +70,7 @@ function webFunction() {
   h1.innerHTML = '<h2 class="fade-in-out">Website</h2>';
   wrapper.innerHTML = "";
   getWebData.forEach((item, index) => {
-    wrapper.innerHTML += createItemTemplate(item);
+    wrapper.innerHTML += createItemTemplate(item, index);
     createListTemplate(item);
   });
 }
@@ -81,7 +81,7 @@ function feFunction() {
   h1.innerHTML = '<h2 class="fade-in-out">Front-End</h2>';
   wrapper.innerHTML = "";
   getFontEndData.forEach((item, index) => {
-    wrapper.innerHTML += createItemTemplate(item);
+    wrapper.innerHTML += createItemTemplate(item, index);
     createListTemplate(item);
   });
 }
@@ -92,7 +92,7 @@ function beFunction() {
   h1.innerHTML = '<h2 class="fade-in-out">Back-End</h2>';
   wrapper.innerHTML = "";
   getBackEndData.forEach((item, index) => {
-    wrapper.innerHTML += createItemTemplate(item);
+    wrapper.innerHTML += createItemTemplate(item, index);
     createListTemplate(item);
   });
 }
