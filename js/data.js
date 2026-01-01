@@ -34,10 +34,10 @@ const getWebData = [
     apkVer: "https://drive.google.com/file/d/1lZvFHpsUUTh10bgNQpAvse3SNTuzAAy7/view?usp=sharing"
   },
   {
-    name: "Ingredient App",
+    name: "Ingredient - Product Calculator",
     address: "https://scintillating-tulumba-d699fa.netlify.app/",
     image: "assets/images/vue1.png",
-    feature: "Vue",
+    feature: "Vue, Golang, Gin, PostgreSQL",
     github: "",
     apkVer: ""
   },
@@ -50,7 +50,7 @@ const getWebData = [
     apkVer: ""
   },
   {
-    name: "Posting MBG App,\n berbagi review MBG untuk semua sekolah",
+    name: "Posting App,\n berbagi review makan siang untuk semua sekolah",
     address: "https://elaborate-rolypoly-0056fa.netlify.app/",
     image: "assets/images/mbg2.PNG",
     feature: "Flutter, PHP, PostgreSQL, Account Testing: Alice pass:secret123, Test School Login: hafidhuddien3@gmail.com pass:12345678",
