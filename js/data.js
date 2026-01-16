@@ -22,8 +22,8 @@ const getWebData = [
     name: "Akuntansi App (Invoice,Bill,Payment,GL)",
     address: "https://darling-starburst-301da9.netlify.app/",
     image: "assets/images/account.png",
-    feature: ".NET Blazor, IndexedDB",
-    github: "",
+    feature: ".NET Blazor, IndexedDB, LINQ - payment.razor",
+    github: "https://github.com/hafidhuddien3/BlazorWebAsm1",
   },
   {
     name: "Calendar App",

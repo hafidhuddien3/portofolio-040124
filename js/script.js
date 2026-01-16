@@ -27,7 +27,7 @@ const createRowRightTemplate = (data, index = 0) => {
 <ul id="${data.name}" ></ul>
 <a href="${data.address}" target=”_blank” >link</a>
 <a href="${data.apkVer}" target=”_blank” >${data.apkVer?"apk version":""}</a>
-<a href="${data.github}" target=”_blank” ></a>`;
+<a href="${data.github}" target=”_blank” >${data.github ? "github link": ""}</a>`;
 };
 
 const createListTemplate = (data) => {
@@ -48,12 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 ///
-const btnMobile = document.querySelector("#btnMobile");
+// const btnMobile = document.querySelector("#btnMobile");
 const btnWeb = document.querySelector("#btnWeb");
 const btnFE = document.querySelector("#btnFE");
 const btnBE = document.querySelector("#btnBE");
 
-btnMobile.addEventListener("click", mobileFunction);
+// btnMobile.addEventListener("click", mobileFunction);
 
 function mobileFunction() {
   h1.innerHTML = '<h2 class="fade-in-out">Mobile</h2>';
