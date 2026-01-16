@@ -84,22 +84,22 @@ const getFontEndData = [
     github: "https://github.com/hafidhuddien3/next.js-meals-030324",
   },
 
-  {
-    name: "Threads App (React)",
-    address: "https://darling-bubblegum-29834f.netlify.app/",
-    image: "assets/images/image-react-threads.png",
-    feature:
-      "redux,hooks,vitest test,cypress test,storybook,ci cd,guest account",
-    github: "https://github.com/hafidhuddien3/react-thread-app-240124",
-  },
+  // {
+  //   name: "Threads App (React)",
+  //   address: "https://darling-bubblegum-29834f.netlify.app/",
+  //   image: "assets/images/image-react-threads.png",
+  //   feature:
+  //     "redux,hooks,vitest test,cypress test,storybook,ci cd,guest account",
+  //   github: "https://github.com/hafidhuddien3/react-thread-app-240124",
+  // },
 
-  {
-    name: "Notes App (React)",
-    address: "https://creative-kitsune-3e24ff.netlify.app/",
-    image: "assets/images/image-react-notes.png",
-    feature: "dark/light theme,hooks,loading indicator,dual language,404 Pages",
-    github: "https://github.com/hafidhuddien3/react-note-r3-030124",
-  },
+  // {
+  //   name: "Notes App (React)",
+  //   address: "https://creative-kitsune-3e24ff.netlify.app/",
+  //   image: "assets/images/image-react-notes.png",
+  //   feature: "dark/light theme,hooks,loading indicator,dual language,404 Pages",
+  //   github: "https://github.com/hafidhuddien3/react-note-r3-030124",
+  // },
 
   {
     name: "Resto Mania",
@@ -127,13 +127,13 @@ const getFontEndData = [
     github: "https://github.com/hafidhuddien3/Finder-fe4-030124",
   },
 
-  {
-    name: "Bookshelf App",
-    address: "https://keen-tapioca-379b0f.netlify.app/",
-    image: "assets/images/image(4).png",
-    feature: "Responsive",
-    github: "https://github.com/hafidhuddien3/bookshelf-app-fe3-030124",
-  },
+  // {
+  //   name: "Bookshelf App",
+  //   address: "https://keen-tapioca-379b0f.netlify.app/",
+  //   image: "assets/images/image(4).png",
+  //   feature: "Responsive",
+  //   github: "https://github.com/hafidhuddien3/bookshelf-app-fe3-030124",
+  // },
 
   {
     name: "Kab. Tulungagung Info",
@@ -149,7 +149,7 @@ const getBackEndData = [
     name: "forum api",
     address: "https://github.com/hafidhuddien3/forum-api",
     image: null,
-    feature: "PostgreSQL,Clean Architecture,Jest,instances-container,postman",
+    feature: "PostgreSQL,Clean Architecture,Jest,instances-container",
     github: "https://github.com/hafidhuddien3/forum-api",
   },
 
@@ -157,7 +157,7 @@ const getBackEndData = [
     name: "open music api",
     address: "https://github.com/hafidhuddien3/open-music-api-be6-030124",
     image: null,
-    feature: "PostgreSQL,redis CacheService,bcrypt,dotenv,joi,nanoid",
+    feature: "PostgreSQL,redis CacheService,joi,nanoid",
     github: "https://github.com/hafidhuddien3/open-music-api-be6-030124",
   },
 
