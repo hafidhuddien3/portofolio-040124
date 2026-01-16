@@ -23,11 +23,15 @@ const createRowLeftTemplate = (data) => {
 
 const createRowRightTemplate = (data, index = 0) => {
   return `
-  <h4 class="">${[index+1] + ". "+data.name}</h4>
+  <h4 class="">${[index + 1] + ". " + data.name}</h4>
 <ul id="${data.name}" ></ul>
 <a href="${data.address}" target=”_blank” >link</a>
-<a href="${data.apkVer}" target=”_blank” >${data.apkVer?"apk version":""}</a>
-<a href="${data.github}" target=”_blank” >${data.github ? "github link": ""}</a>`;
+<a href="${data.apkVer}" target=”_blank” >${
+    data.apkVer ? "apk version" : ""
+  }</a>
+<a href="${data.github}" target=”_blank” >${
+    data.github ? "github link" : ""
+  }</a>`;
 };
 
 const createListTemplate = (data) => {
@@ -98,33 +102,52 @@ function beFunction() {
 }
 
 // gradient
-const gradDiv = document.getElementById('grad1');
-const clockP = document.getElementById('clock');
-const sunMoonImage = document.getElementsByClassName('img-sun-moon');
-const pageTitleH2 = document.getElementsByClassName('pageTitle');
-
+const gradDiv = document.getElementById("grad1");
+const clockP = document.getElementById("clock");
+const sunMoonImage = document.getElementsByClassName("img-sun-moon");
+const pageTitleH2 = document.getElementsByClassName("pageTitle");
 
 // Get current hour (0-23)
 // const hour = new Date().getHours();
 
-const now = new Date();
+// Function to update the time
+let now;
+let hour;
+let minutes;
+function showTime() {
+  now = new Date();
 
-const hour = now.getHours();      // 0-23
-const minutes = now.getMinutes(); // 0-59
+  hour = now.getHours(); // 0-23
+  minutes = now.getMinutes(); // 0-59
 
-console.log(`Current time: ${hour}:${minutes}`);
-clockP.innerHTML = `${hour.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+  console.log(`Current time: ${hour}:${minutes}`);
+  clockP.innerHTML = `${hour.toString().padStart(2, "0")}:${minutes
+    .toString()
+    .padStart(2, "0")}`;
+}
+
+// Run immediately once
+showTime();
+
+// Run every 1000ms (1 second)
+setInterval(showTime, 1000 * 2);
 
 // Decide overlay color
-const isDay = (hour >= 6 && hour < 18)
+const isDay = hour >= 6 && hour < 18;
 // const isDay = true;
-const overlayColor = isDay ? '255,255,255' : '0,0,0'; // white for day, black for night
-sunMoonImage[0].src = isDay ? 'assets/imageLayout/Sun-PNG-Image-Background.png' : 'assets/imageLayout/moon-illustration-design-free-png.webp';
-sunMoonImage[0].style.animation= isDay ? 'rotateBox 20s linear infinite' : 'rotateBoxMoon 7s linear infinite';
+const overlayColor = isDay ? "255,255,255" : "0,0,0"; // white for day, black for night
+sunMoonImage[0].src = isDay
+  ? "assets/imageLayout/Sun-PNG-Image-Background.png"
+  : "assets/imageLayout/moon-illustration-design-free-png.webp";
+sunMoonImage[0].style.animation = isDay
+  ? "rotateBox 20s linear infinite"
+  : "rotateBoxMoon 7s linear infinite";
 // sunMoonImage[0].classList.toggle('glow-animate', isDay);
-pageTitleH2[0].style.color= isDay ? 'black' : 'white' ;
-document.body.style.backgroundImage = isDay ? "" : "url('assets/imageLayout/night2.png')";
-clockP.style.color = isDay ? 'white' : 'white' ;
+pageTitleH2[0].style.color = isDay ? "black" : "white";
+document.body.style.backgroundImage = isDay
+  ? ""
+  : "url('assets/imageLayout/night2.png')";
+clockP.style.color = isDay ? "white" : "white";
 
 // Set the background with overlay gradient
 gradDiv.style.background = `
@@ -134,6 +157,6 @@ gradDiv.style.background = `
 `;
 
 // Optional: keep the animation working
-gradDiv.style.backgroundSize = 'cover, 200% 200%';
-gradDiv.style.backgroundPosition = 'center, left bottom';
-gradDiv.style.animation = 'zoomMove 5s infinite alternate';
+gradDiv.style.backgroundSize = "cover, 200% 200%";
+gradDiv.style.backgroundPosition = "center, left bottom";
+gradDiv.style.animation = "zoomMove 5s infinite alternate";
