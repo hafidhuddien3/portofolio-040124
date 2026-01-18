@@ -49,13 +49,13 @@ const getWebData = [
     github: "",
     apkVer: ""
   },
-  {
-    name: "Posting App,\n berbagi review makan siang untuk semua sekolah",
-    address: "https://elaborate-rolypoly-0056fa.netlify.app/",
-    image: "assets/images/mbg2.PNG",
-    feature: "Flutter, PHP, PostgreSQL, Account Testing: Alice pass:secret123, Test School Login: hafidhuddien3@gmail.com pass:12345678",
-    github: "",
-  },
+  // {
+  //   name: "Posting App,\n berbagi review makan siang untuk semua sekolah",
+  //   address: "https://elaborate-rolypoly-0056fa.netlify.app/",
+  //   image: "assets/images/mbg2.PNG",
+  //   feature: "Flutter, PHP, PostgreSQL, Account Testing: Alice pass:secret123, Test School Login: hafidhuddien3@gmail.com pass:12345678",
+  //   github: "",
+  // },
   {
     name: "CRM App",
     address: "https://crm-app-hafid.netlify.app/",
